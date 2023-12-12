@@ -4,8 +4,13 @@
   display: grid;
   grid-template-columns:repeat(4,1fr);
   margin-top: 50px;
-  border:1.8px solid rgb(182, 182, 182);
+  border:1.3px solid rgb(182, 182, 182);
   width:100%;
   text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
+.Footer-bottom {
+  border:1.3px solid rgb(182, 182, 182);
+}

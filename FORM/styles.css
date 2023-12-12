@@ -43,7 +43,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 320px;
+  width: 420px;
   height: 70px;
 }
 .Dropdown {
@@ -53,12 +53,13 @@
   font-weight: bold;
   text-decoration: none;
   padding-bottom: 85px;
+  display: flex;
+  margin-left: 15px;
 }
 
-.Dropdown p {
-  color: grey;
-  font-weight: bold;
-  margin: 0;
+.Dropdown i {
+  margin-top: 18px;
+  margin-left: 10px;
 }
 
 .right-column {
@@ -70,6 +71,15 @@
   display: flex;
   gap: 10px; 
   align-items: center;
+}
+.interact-wrapper i {
+  color:rgba(32, 143, 75, 0.883);
+  width: 15px;
+  
+}
+
+.interact-wrapper > .Search i {
+ color:grey;
 }
 
 .interact-wrapper button {
